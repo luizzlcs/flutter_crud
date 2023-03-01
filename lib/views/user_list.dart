@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_crud/coponents/user_title.dart';
-import 'package:flutter_crud/models/user.dart';
 import 'package:flutter_crud/povider/users_provider.dart';
 import 'package:flutter_crud/routers/app_routes.dart';
 import 'package:provider/provider.dart';

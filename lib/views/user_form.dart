@@ -95,7 +95,9 @@ class _UserFormState extends State<UserForm> {
               ),
               TextFormField(
                 initialValue: _formDate['avatarUrl'] ?? '',
-                decoration: const InputDecoration(labelText: 'URL Avatar'),
+                decoration: const InputDecoration(
+                  labelText: 'URL Avatar',
+                ),
                 onSaved: (value) => _formDate['avatarUrl'] = value!,
               ),
             ],
